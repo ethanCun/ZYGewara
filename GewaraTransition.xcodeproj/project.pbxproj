@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061A11E42020244F00E43180 /* ChooseSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A11E32020244F00E43180 /* ChooseSeatViewController.swift */; };
+		06DEE9A3201EB7A400B66B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9A2201EB7A400B66B77 /* AppDelegate.swift */; };
+		06DEE9A5201EB7A400B66B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9A4201EB7A400B66B77 /* ViewController.swift */; };
+		06DEE9A8201EB7A400B66B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DEE9A6201EB7A400B66B77 /* Main.storyboard */; };
+		06DEE9AA201EB7A400B66B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DEE9A9201EB7A400B66B77 /* Assets.xcassets */; };
+		06DEE9AD201EB7A400B66B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DEE9AB201EB7A400B66B77 /* LaunchScreen.storyboard */; };
+		06DEE9B7201EB86400B66B77 /* ZYFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9B6201EB86400B66B77 /* ZYFilms.swift */; };
+		06DEE9B9201EB87600B66B77 /* ZYDetailFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9B8201EB87600B66B77 /* ZYDetailFilmsViewController.swift */; };
+		06DEE9BB201EBE0500B66B77 /* ZYFilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9BA201EBE0500B66B77 /* ZYFilmCell.swift */; };
+		06DEE9BF201EE0A400B66B77 /* ZYGewaraNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9BE201EE0A400B66B77 /* ZYGewaraNaviController.swift */; };
+		06DEE9C1201EE22C00B66B77 /* ZYGewaraAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DEE9C0201EE22C00B66B77 /* ZYGewaraAnimator.swift */; };
+		C48AEC068072E1F5B45661D4 /* Pods_GewaraTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659E7C96201DC2EC3B3F90D7 /* Pods_GewaraTransition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		061A11E32020244F00E43180 /* ChooseSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSeatViewController.swift; sourceTree = "<group>"; };
+		06DEE99F201EB7A400B66B77 /* GewaraTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GewaraTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DEE9A2201EB7A400B66B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06DEE9A4201EB7A400B66B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06DEE9A7201EB7A400B66B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06DEE9A9201EB7A400B66B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DEE9AC201EB7A400B66B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06DEE9AE201EB7A400B66B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DEE9B6201EB86400B66B77 /* ZYFilms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFilms.swift; sourceTree = "<group>"; };
+		06DEE9B8201EB87600B66B77 /* ZYDetailFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYDetailFilmsViewController.swift; sourceTree = "<group>"; };
+		06DEE9BA201EBE0500B66B77 /* ZYFilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYFilmCell.swift; sourceTree = "<group>"; };
+		06DEE9BE201EE0A400B66B77 /* ZYGewaraNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYGewaraNaviController.swift; sourceTree = "<group>"; };
+		06DEE9C0201EE22C00B66B77 /* ZYGewaraAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYGewaraAnimator.swift; sourceTree = "<group>"; };
+		463276FD814AFA7050D3510E /* Pods-GewaraTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GewaraTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-GewaraTransition/Pods-GewaraTransition.release.xcconfig"; sourceTree = "<group>"; };
+		659E7C96201DC2EC3B3F90D7 /* Pods_GewaraTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GewaraTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71256A71C89399502F973656 /* Pods-GewaraTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GewaraTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GewaraTransition/Pods-GewaraTransition.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DEE99C201EB7A400B66B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48AEC068072E1F5B45661D4 /* Pods_GewaraTransition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DEE996201EB7A400B66B77 = {
+			isa = PBXGroup;
+			children = (
+				06DEE9A1201EB7A400B66B77 /* GewaraTransition */,
+				06DEE9A0201EB7A400B66B77 /* Products */,
+				4E2F0308EBCDA5FCEB0D4E4A /* Pods */,
+				B46885DA001F1AAC64F10269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06DEE9A0201EB7A400B66B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DEE99F201EB7A400B66B77 /* GewaraTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DEE9A1201EB7A400B66B77 /* GewaraTransition */ = {
+			isa = PBXGroup;
+			children = (
+				06DEE9A2201EB7A400B66B77 /* AppDelegate.swift */,
+				06DEE9BE201EE0A400B66B77 /* ZYGewaraNaviController.swift */,
+				06DEE9C0201EE22C00B66B77 /* ZYGewaraAnimator.swift */,
+				06DEE9A4201EB7A400B66B77 /* ViewController.swift */,
+				06DEE9B8201EB87600B66B77 /* ZYDetailFilmsViewController.swift */,
+				061A11E32020244F00E43180 /* ChooseSeatViewController.swift */,
+				06DEE9BA201EBE0500B66B77 /* ZYFilmCell.swift */,
+				06DEE9B6201EB86400B66B77 /* ZYFilms.swift */,
+				06DEE9A6201EB7A400B66B77 /* Main.storyboard */,
+				06DEE9A9201EB7A400B66B77 /* Assets.xcassets */,
+				06DEE9AB201EB7A400B66B77 /* LaunchScreen.storyboard */,
+				06DEE9AE201EB7A400B66B77 /* Info.plist */,
+			);
+			path = GewaraTransition;
+			sourceTree = "<group>";
+		};
+		4E2F0308EBCDA5FCEB0D4E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71256A71C89399502F973656 /* Pods-GewaraTransition.debug.xcconfig */,
+				463276FD814AFA7050D3510E /* Pods-GewaraTransition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B46885DA001F1AAC64F10269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659E7C96201DC2EC3B3F90D7 /* Pods_GewaraTransition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DEE99E201EB7A400B66B77 /* GewaraTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DEE9B1201EB7A400B66B77 /* Build configuration list for PBXNativeTarget "GewaraTransition" */;
+			buildPhases = (
+				45C7050DB355EFA1E1736409 /* [CP] Check Pods Manifest.lock */,
+				06DEE99B201EB7A400B66B77 /* Sources */,
+				06DEE99C201EB7A400B66B77 /* Frameworks */,
+				06DEE99D201EB7A400B66B77 /* Resources */,
+				EC6E637A6432117D1024FEC0 /* [CP] Embed Pods Frameworks */,
+				4C48C6A78EBD9AD8D293D92E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GewaraTransition;
+			productName = GewaraTransition;
+			productReference = 06DEE99F201EB7A400B66B77 /* GewaraTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DEE997201EB7A400B66B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06DEE99E201EB7A400B66B77 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06DEE99A201EB7A400B66B77 /* Build configuration list for PBXProject "GewaraTransition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DEE996201EB7A400B66B77;
+			productRefGroup = 06DEE9A0201EB7A400B66B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DEE99E201EB7A400B66B77 /* GewaraTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DEE99D201EB7A400B66B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DEE9AD201EB7A400B66B77 /* LaunchScreen.storyboard in Resources */,
+				06DEE9AA201EB7A400B66B77 /* Assets.xcassets in Resources */,
+				06DEE9A8201EB7A400B66B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C7050DB355EFA1E1736409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GewaraTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C48C6A78EBD9AD8D293D92E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GewaraTransition/Pods-GewaraTransition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6E637A6432117D1024FEC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GewaraTransition/Pods-GewaraTransition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GewaraTransition/Pods-GewaraTransition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DEE99B201EB7A400B66B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DEE9BF201EE0A400B66B77 /* ZYGewaraNaviController.swift in Sources */,
+				06DEE9B9201EB87600B66B77 /* ZYDetailFilmsViewController.swift in Sources */,
+				06DEE9A5201EB7A400B66B77 /* ViewController.swift in Sources */,
+				06DEE9BB201EBE0500B66B77 /* ZYFilmCell.swift in Sources */,
+				06DEE9B7201EB86400B66B77 /* ZYFilms.swift in Sources */,
+				06DEE9C1201EE22C00B66B77 /* ZYGewaraAnimator.swift in Sources */,
+				061A11E42020244F00E43180 /* ChooseSeatViewController.swift in Sources */,
+				06DEE9A3201EB7A400B66B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06DEE9A6201EB7A400B66B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DEE9A7201EB7A400B66B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06DEE9AB201EB7A400B66B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DEE9AC201EB7A400B66B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06DEE9AF201EB7A400B66B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06DEE9B0201EB7A400B66B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DEE9B2201EB7A400B66B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71256A71C89399502F973656 /* Pods-GewaraTransition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = GewaraTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.GewaraTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06DEE9B3201EB7A400B66B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463276FD814AFA7050D3510E /* Pods-GewaraTransition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = GewaraTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.GewaraTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DEE99A201EB7A400B66B77 /* Build configuration list for PBXProject "GewaraTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DEE9AF201EB7A400B66B77 /* Debug */,
+				06DEE9B0201EB7A400B66B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DEE9B1201EB7A400B66B77 /* Build configuration list for PBXNativeTarget "GewaraTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DEE9B2201EB7A400B66B77 /* Debug */,
+				06DEE9B3201EB7A400B66B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06DEE997201EB7A400B66B77 /* Project object */;
+}
